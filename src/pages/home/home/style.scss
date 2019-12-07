@@ -1,0 +1,116 @@
+.swiper-container{
+  width: 100%;
+  height: 260px;
+  background-color: #fff;
+  img{
+    width: 100%;
+    height: 260px;
+  }
+}
+.h_news{
+  height: 225px;
+  background-color: #fff;
+  overflow: hidden;
+  .h_message
+  {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 50px;
+    text-indent: 20px;
+    position: relative;
+    background-color: #F4F6F9;
+    .h_more{
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .h_newMess{
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    .h_red{
+      position: absolute;
+      padding: 0 5px;
+      left: 5px;
+      top: 10px;
+      border: 1px solid red;
+      background-color: #FCD7DE;
+      border-radius: 15px;
+      font-size: 14px;
+      color: red;
+    }
+    .h_org{
+      position: absolute;
+      padding: 0 5px;
+      left: 5px;
+      top: 10px;
+      border: 1px solid orange;
+      background-color: #FEF2D7;
+      border-radius: 15px;
+      font-size: 14px;
+      color: orange;
+    }
+    .h_time{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      padding: 0 10px;
+    }
+    p{
+      width: 80%;
+      height: 100%;
+      line-height: 42px;
+      padding-left: 60px;
+      box-sizing: border-box;
+      white-space: nowrap;
+      overflow: hidden; 
+      text-overflow:ellipsis;
+    }
+  }
+}
+// .h_tabs{
+//   width: 100%;  
+//   .h_tab{
+//     float: left;
+//     padding:15px 26px; 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     text-align: center;
+//     .iconfont{
+//       font-size: 25px;
+//     }
+//     .h_text{
+//       font-size: 12px;
+//       color: #999;
+//     }
+//   }
+// }
+
+.h_tabs{
+  width: 100%; 
+  display: flex;  
+  justify-content: space-around;  
+  flex-direction: row;  
+  flex-wrap: wrap; 
+  .h_tab{
+    padding:15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    .iconfont{
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+    .h_text{
+      font-size: 12px;
+      color: #999;
+    }
+  }
+}

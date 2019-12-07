@@ -1,0 +1,81 @@
+.p_project{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  .p_title{
+    height: 49px;
+    position: relative;
+    .iconfont{
+      position: absolute;
+      width: 20%;
+      left: 0;
+      top: 0;
+      height: 49px;
+      text-align: center;
+      line-height: 49px;
+      font-size: 30px;
+      color: blue;
+    }
+    .pp_title{
+      width: 80%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 49px;
+      border-bottom: 1px solid #ddd;
+      line-height: 49px;
+    }
+  }
+  .p_pending{
+    display: inline-block;
+    margin-left: 20%;
+    width: 80%;
+    height: 49px;
+    line-height: 49px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    .iconfont{
+      font-size: 20px;
+      color: blue;
+      margin-right: 10px;
+    }
+    .p_arrow{
+      position: absolute;
+      right: 10px;
+      height: 49px;
+      padding: 0 10px;
+      font-size: 20px;
+    }
+    &.p_succed{
+      border-bottom: none;
+    }
+  }
+}
+.p_newpro{
+  display: inline-block;
+  width: 100%;
+  height: 49px;
+  line-height: 49px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+  background-color: #fff;
+  position: relative;
+  .iconfont{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px 0 20px;
+    padding: 0 10px;
+    color: blue;
+  }
+  .p_arrow{
+    position: absolute;
+    right: 10px;
+    height: 49px;
+    padding: 0 10px;
+    font-size: 20px;
+
+  }
+}

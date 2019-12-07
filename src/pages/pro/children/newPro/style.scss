@@ -1,0 +1,134 @@
+.proname{
+  width: 100%;
+  position: relative;
+  height: 360px;
+  .p_name{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nameMain{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    p{
+      height: 30px;
+      line-height: 30px;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #999;
+    }
+    input{
+      border: none;
+      border-bottom: 1px solid #ddd;
+      outline: none;
+      font-size: 18px;
+      margin-left: 10px;
+      color: #666;
+    }
+    .p_img{
+      width: 100%;
+      height: 100px;
+      line-height: 100px;
+      position: relative;
+      margin-top: 10px;
+      span{
+        font-size: 14px;
+        color: #999;
+      }
+      i,input, img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: 1px dashed #ddd;
+      }
+      input{
+        border: none;
+        opacity: 0;
+      }
+      i{
+        font-size: 20px;
+        font-style: normal;
+        text-align: center;
+        color: #ccc;
+        z-index: -1;
+      }
+    }
+  }
+}
+.fuze, .kehu{
+  width: 100%;
+  position: relative;
+  height: 240px;
+  p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .fuzeInfo, .kehuInfo{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    p{
+      height: 30px;
+      line-height: 30px;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #999;
+      input{
+        border: none;
+        border-bottom: 1px solid #ddd;
+        outline: none;
+        font-size: 18px;
+        margin-left: 10px;
+        color: #666;
+      }
+    }
+  }
+}
+
+.n_save{
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 49px;
+  p{
+    color: #fff;
+    height: 100%;
+    line-height: 49px;
+    position: absolute;
+    font-size: 18px;
+    padding: 0 20px;
+    border-radius: 10px;
+  }
+  .n_exit{
+    background-color: red;
+    left: 10px;
+  }
+  .n_push{
+    background-color: blue;
+    right: 10px;
+  }
+}
