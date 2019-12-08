@@ -1,12 +1,12 @@
 ## 汤姆猫项目管理平台
-    [github地址](https://github.com/wangtomcat/Project-management)
-    [项目展示地址](http://134.175.16.225:3030)
+[github地址](https://github.com/wangtomcat/Project-management)
+[项目展示地址](http://134.175.16.225:3030)
     账号: 18879098571
     密码: 123456
 
 ### 描述
-    一款管理项目的APP,node创建的服务
-    使用 [react](https://zh-hans.reactjs.org/) 框架构建, react-redux 仓库管理数据,项目总的依赖
+   一款管理项目的APP,node创建的服务
+   使用 [react](https://zh-hans.reactjs.org/) 框架构建, react-redux 仓库管理数据,项目总的依赖
     react-router-dom
     redux
     redux-thunk
