@@ -1,6 +1,6 @@
 ## 汤姆猫项目管理平台
-    [github地址]()
-    [项目展示地址]()
+    [github地址](https://github.com/wangtomcat/Project-management)
+    [项目展示地址](http://134.175.16.225:3030)
     账号: 18879098571
     密码: 123456
 
